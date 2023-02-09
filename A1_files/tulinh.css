@@ -1,0 +1,56 @@
+h1 {
+    border-radius: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color: plum;
+    color:lavender;
+    font-weight:bold; 
+    text-align: center;
+    font-size: 1.5em;
+}
+p#fact {
+    font-size: 1.25em;
+    color:plum;
+    text-align: right;
+    text-shadow: 2px 2px 4px whitesmoke;
+    
+}
+
+video {
+    width: 100px;
+}
+hr {
+    border-top: 1px dashed pink;
+}
+img {
+    width: 200px;
+    box-shadow: 0 0 20px 10px greenyellow;
+}
+table, th, td{
+    border: 1px; width: 50%;
+    border-style: solid;
+border-collapse: collapse;
+}
+th#header {
+    text-align: center;
+    background-color: rgb(152, 225, 188);
+    font-weight: bold;
+}
+th#col1, td#col1{
+    text-align: left;
+    background-color: rgb(198, 234, 127);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+th#col2, td#col2{
+    text-align: right;
+    background-color: rgb(2, 242, 162);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ul {
+    list-style-image: url(images/penguin.gif);
+    margin-left: 125px;
+}
+
+

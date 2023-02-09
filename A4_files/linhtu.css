@@ -1,0 +1,51 @@
+/*Linh Tu 991696475*/
+body {
+    background: turquoise;   
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-areas: 
+        "h h"
+        "pd ex"
+        "pd fd"
+        "cm cm"
+        "ft ft";
+    }
+
+    .gridContainer > * {
+        border: 5px yellow solid;
+        border-radius: 5px;
+    }
+    
+    .header {
+        grid-area: h;
+        text-align: center;
+    }
+
+    .personal {
+        grid-area: pd;
+        padding: 10px;
+    }
+
+    .exp {
+        grid-area: ex;
+        padding: 10px;
+    }
+
+    .financial {
+        grid-area: fd;
+        padding: 10px;
+    }
+
+    .comment {
+        grid-area: cm;
+        padding: 10px;
+    }
+
+    .footer {
+        grid-area: ft;
+        padding: 10px;
+    }
+
+
